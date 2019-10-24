@@ -56,7 +56,7 @@ std::vector<Z> successive_augmentation(const Graph<R, Z> & G, const std::vector<
         sequence.push_back(initial_sequence[mid2]);
     }
 
-    for (int i = 0; i < mid1; i++) {
+    for (Z i = 0; i < mid1; i++) {
         cend++;
 
         //std::cout << cend << '\n';
@@ -67,7 +67,7 @@ std::vector<Z> successive_augmentation(const Graph<R, Z> & G, const std::vector<
 
         pos = cend;
 
-        for (int j = cend - 1; j > 0; j--) {
+        for (Z j = cend - 1; j > 0; j--) {
             std::swap(sequence[j], sequence[j - 1]);
 
             R cost = la(G(sequence));
@@ -91,7 +91,7 @@ std::vector<Z> successive_augmentation(const Graph<R, Z> & G, const std::vector<
 
         pos = cend;
 
-        for (int j = cend - 1; j > 0; j--) {
+        for (Z j = cend - 1; j > 0; j--) {
             std::swap(sequence[j], sequence[j - 1]);
 
             R cost = la(G(sequence));
