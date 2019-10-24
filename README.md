@@ -16,3 +16,5 @@ LAT stands for **L**inear **A**rrangement **T**oolbox. It is a C++ template libr
 
     You should have received a copy of the GNU General Public License
     along with this program.  If not, see <https://www.gnu.org/licenses/>.
+    
+    Contact me on johakepl@gmail.com
