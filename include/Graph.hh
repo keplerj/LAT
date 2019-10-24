@@ -221,7 +221,7 @@ const Z numnodes(const Graph<R, Z> & G) {
 
 template<typename R, typename Z>
 const R la(const Graph<R, Z> & G) {
-    std::vector<R> costs(nnz(G));
+    //std::vector<R> costs(nnz(G));
 
     const std::vector<R> & A = G.A;
 
