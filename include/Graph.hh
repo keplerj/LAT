@@ -22,8 +22,6 @@
 #ifndef GRAPH_HH
 #define GRAPH_HH
 
-#define NDEBUG
-
 #include <iostream>
 #include <vector>
 #include <algorithm>
