@@ -1,6 +1,6 @@
 // "Graph.hh" -- implements template class Graph as part of the L(inear) A(rrangement) T(oolbox) library.
 //
-// Copyright (C) 2019 Georgios N Printezis
+// Copyright (C) 2018 - 2019 Georgios N Printezis
 //
 // This file is part of the LAT library. This library is free
 // software; you can distribute it and/or modify it under the
