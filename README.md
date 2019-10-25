@@ -2,7 +2,7 @@
 
 LAT stands for **L**inear **A**rrangement **T**oolbox. It is a C++ template library implemented in modern C++ for use on the [Linear Arrangement Problem](https://en.wikipedia.org/wiki/Graph_bandwidth). 
 
-    Copyright (C) 2019 Georgios N Printezis
+    Copyright (C) 2018 - 2019 Georgios N Printezis
     
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
