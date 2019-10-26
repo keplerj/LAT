@@ -66,10 +66,6 @@ const Graph<real, integer> load_mtx(std::string file_name) {
     std::transform(I.begin(), I.end(), I.begin(), [] (integer i) { 
                                                     return i -= 1; 
                                                   });
-                                               
-    std::transform(J.begin(), J.end(), J.begin(), [] (integer i) { 
-                                                    return i -= 1; 
-                                                  });
 
     std::vector<integer> JA(cols + 1);
 
@@ -158,10 +154,6 @@ const Graph<real, integer> load_mtx_bin(std::string & file_name) {
     std::clog << "matrix loaded to memory\n";
 
     std::transform(I.begin(), I.end(), I.begin(), [] (integer i) { 
-                                                    return i -= 1; 
-                                                  });
-
-    std::transform(J.begin(), J.end(), J.begin(), [] (integer i) { 
                                                     return i -= 1; 
                                                   });
 
