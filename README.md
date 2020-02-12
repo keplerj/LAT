@@ -1,6 +1,6 @@
 # LAT: **L**inear **A**rrangement **T**oolbox <br/> *A C++ template library*
 
-LAT stands for **L**inear **A**rrangement **T**oolbox. It is a C++ template library implemented in modern C++ for use on the [Linear Arrangement Problem](https://en.wikipedia.org/wiki/Graph_bandwidth). 
+LAT stands for **L**inear **A**rrangement **T**oolbox. It is a C++ template library implemented in modern C++ for use on the **Linear Arrangement Problem**. 
 
     Copyright (C) 2018 - 2019 Georgios N Printezis
     
